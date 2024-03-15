@@ -35,3 +35,7 @@ Integer monthlyRentCost = yearlyRentCost / 12;  //get 1000 again
 Integer hourlyRate = 20;
 Integer hoursPerWeek = 40;
 Integer weeklyPay = hourlyRate * hoursPerWeek;
+
+Integer monthlyPhoneBill = 120; 
+Integer monthsInAYear = 12; 
+Integer annualPhoneBill = monthlyPhoneBill * monthsInAYear;
