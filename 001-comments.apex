@@ -11,9 +11,18 @@ It wraps multiple lines!
 */
 
 
-/*
-TODO:
-- Learn Apex
-- Dev I Cert
-- Conquer the world
+/**
+* APEXDOC COMMENTS
+* Used to document Salesforce Apex classes.
+*
+* @author Salesforce.com Foundation
+* @date 2014
+*
+* @group Accounts
+* @group-content ../../ApexDocContent/Accounts.htm
+*
+* @description Trigger Handler on Accounts that handles ensuring the correct system flags are set on
+* our special accounts (Household, One-to-One), and also detects changes on Household Account that requires
+* name updating.
 */
+public with sharing class ACCT_Accounts_TDTM extends TDTM_Runnable {
